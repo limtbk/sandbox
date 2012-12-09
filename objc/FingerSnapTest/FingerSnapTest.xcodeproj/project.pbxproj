@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A659E2415CA84AF00BA3537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E2315CA84AF00BA3537 /* UIKit.framework */; };
+		3A659E2615CA84AF00BA3537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E2515CA84AF00BA3537 /* Foundation.framework */; };
+		3A659E2815CA84AF00BA3537 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E2715CA84AF00BA3537 /* CoreGraphics.framework */; };
+		3A659E2E15CA84AF00BA3537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A659E2C15CA84AF00BA3537 /* InfoPlist.strings */; };
+		3A659E3015CA84AF00BA3537 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A659E2F15CA84AF00BA3537 /* main.m */; };
+		3A659E3415CA84AF00BA3537 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A659E3315CA84AF00BA3537 /* AppDelegate.m */; };
+		3A659E3C15CA84AF00BA3537 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E3B15CA84AF00BA3537 /* SenTestingKit.framework */; };
+		3A659E3D15CA84AF00BA3537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E2315CA84AF00BA3537 /* UIKit.framework */; };
+		3A659E3E15CA84AF00BA3537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E2515CA84AF00BA3537 /* Foundation.framework */; };
+		3A659E4615CA84AF00BA3537 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A659E4415CA84AF00BA3537 /* InfoPlist.strings */; };
+		3A659E4915CA84AF00BA3537 /* FingerSnapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A659E4815CA84AF00BA3537 /* FingerSnapTestTests.m */; };
+		3A659E5415CA84CF00BA3537 /* FingerSnap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A659E5315CA84CF00BA3537 /* FingerSnap.m */; };
+		3A659E5615CA850C00BA3537 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E5515CA850C00BA3537 /* AVFoundation.framework */; };
+		3A659E5815CA851200BA3537 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A659E5715CA851200BA3537 /* CoreMedia.framework */; };
+		3A659E7015CAAFB700BA3537 /* AudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A659E6F15CAAFB700BA3537 /* AudioCapture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A659E3F15CA84AF00BA3537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A659E1615CA84AF00BA3537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A659E1E15CA84AF00BA3537;
+			remoteInfo = FingerSnapTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A659E1F15CA84AF00BA3537 /* FingerSnapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerSnapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A659E2315CA84AF00BA3537 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A659E2515CA84AF00BA3537 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A659E2715CA84AF00BA3537 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A659E2B15CA84AF00BA3537 /* FingerSnapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerSnapTest-Info.plist"; sourceTree = "<group>"; };
+		3A659E2D15CA84AF00BA3537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A659E2F15CA84AF00BA3537 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A659E3115CA84AF00BA3537 /* FingerSnapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FingerSnapTest-Prefix.pch"; sourceTree = "<group>"; };
+		3A659E3215CA84AF00BA3537 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A659E3315CA84AF00BA3537 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A659E3A15CA84AF00BA3537 /* FingerSnapTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerSnapTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A659E3B15CA84AF00BA3537 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A659E4315CA84AF00BA3537 /* FingerSnapTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerSnapTestTests-Info.plist"; sourceTree = "<group>"; };
+		3A659E4515CA84AF00BA3537 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A659E4715CA84AF00BA3537 /* FingerSnapTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerSnapTestTests.h; sourceTree = "<group>"; };
+		3A659E4815CA84AF00BA3537 /* FingerSnapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerSnapTestTests.m; sourceTree = "<group>"; };
+		3A659E5215CA84CF00BA3537 /* FingerSnap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerSnap.h; sourceTree = "<group>"; };
+		3A659E5315CA84CF00BA3537 /* FingerSnap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerSnap.m; sourceTree = "<group>"; };
+		3A659E5515CA850C00BA3537 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A659E5715CA851200BA3537 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3A659E6D15CAAF0A00BA3537 /* SoundProcessorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundProcessorProtocol.h; sourceTree = "<group>"; };
+		3A659E6E15CAAFB700BA3537 /* AudioCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCapture.h; sourceTree = "<group>"; };
+		3A659E6F15CAAFB700BA3537 /* AudioCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCapture.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A659E1C15CA84AF00BA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E5815CA851200BA3537 /* CoreMedia.framework in Frameworks */,
+				3A659E5615CA850C00BA3537 /* AVFoundation.framework in Frameworks */,
+				3A659E2415CA84AF00BA3537 /* UIKit.framework in Frameworks */,
+				3A659E2615CA84AF00BA3537 /* Foundation.framework in Frameworks */,
+				3A659E2815CA84AF00BA3537 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A659E3615CA84AF00BA3537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E3C15CA84AF00BA3537 /* SenTestingKit.framework in Frameworks */,
+				3A659E3D15CA84AF00BA3537 /* UIKit.framework in Frameworks */,
+				3A659E3E15CA84AF00BA3537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A659E1415CA84AF00BA3537 = {
+			isa = PBXGroup;
+			children = (
+				3A659E5715CA851200BA3537 /* CoreMedia.framework */,
+				3A659E5515CA850C00BA3537 /* AVFoundation.framework */,
+				3A659E5215CA84CF00BA3537 /* FingerSnap.h */,
+				3A659E5315CA84CF00BA3537 /* FingerSnap.m */,
+				3A659E6D15CAAF0A00BA3537 /* SoundProcessorProtocol.h */,
+				3A659E6E15CAAFB700BA3537 /* AudioCapture.h */,
+				3A659E6F15CAAFB700BA3537 /* AudioCapture.m */,
+				3A659E2915CA84AF00BA3537 /* FingerSnapTest */,
+				3A659E4115CA84AF00BA3537 /* FingerSnapTestTests */,
+				3A659E2215CA84AF00BA3537 /* Frameworks */,
+				3A659E2015CA84AF00BA3537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A659E2015CA84AF00BA3537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E1F15CA84AF00BA3537 /* FingerSnapTest.app */,
+				3A659E3A15CA84AF00BA3537 /* FingerSnapTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A659E2215CA84AF00BA3537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E2315CA84AF00BA3537 /* UIKit.framework */,
+				3A659E2515CA84AF00BA3537 /* Foundation.framework */,
+				3A659E2715CA84AF00BA3537 /* CoreGraphics.framework */,
+				3A659E3B15CA84AF00BA3537 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A659E2915CA84AF00BA3537 /* FingerSnapTest */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E3215CA84AF00BA3537 /* AppDelegate.h */,
+				3A659E3315CA84AF00BA3537 /* AppDelegate.m */,
+				3A659E2A15CA84AF00BA3537 /* Supporting Files */,
+			);
+			path = FingerSnapTest;
+			sourceTree = "<group>";
+		};
+		3A659E2A15CA84AF00BA3537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E2B15CA84AF00BA3537 /* FingerSnapTest-Info.plist */,
+				3A659E2C15CA84AF00BA3537 /* InfoPlist.strings */,
+				3A659E2F15CA84AF00BA3537 /* main.m */,
+				3A659E3115CA84AF00BA3537 /* FingerSnapTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A659E4115CA84AF00BA3537 /* FingerSnapTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E4715CA84AF00BA3537 /* FingerSnapTestTests.h */,
+				3A659E4815CA84AF00BA3537 /* FingerSnapTestTests.m */,
+				3A659E4215CA84AF00BA3537 /* Supporting Files */,
+			);
+			path = FingerSnapTestTests;
+			sourceTree = "<group>";
+		};
+		3A659E4215CA84AF00BA3537 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A659E4315CA84AF00BA3537 /* FingerSnapTestTests-Info.plist */,
+				3A659E4415CA84AF00BA3537 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A659E1E15CA84AF00BA3537 /* FingerSnapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A659E4C15CA84AF00BA3537 /* Build configuration list for PBXNativeTarget "FingerSnapTest" */;
+			buildPhases = (
+				3A659E1B15CA84AF00BA3537 /* Sources */,
+				3A659E1C15CA84AF00BA3537 /* Frameworks */,
+				3A659E1D15CA84AF00BA3537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerSnapTest;
+			productName = FingerSnapTest;
+			productReference = 3A659E1F15CA84AF00BA3537 /* FingerSnapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A659E3915CA84AF00BA3537 /* FingerSnapTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A659E4F15CA84AF00BA3537 /* Build configuration list for PBXNativeTarget "FingerSnapTestTests" */;
+			buildPhases = (
+				3A659E3515CA84AF00BA3537 /* Sources */,
+				3A659E3615CA84AF00BA3537 /* Frameworks */,
+				3A659E3715CA84AF00BA3537 /* Resources */,
+				3A659E3815CA84AF00BA3537 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A659E4015CA84AF00BA3537 /* PBXTargetDependency */,
+			);
+			name = FingerSnapTestTests;
+			productName = FingerSnapTestTests;
+			productReference = 3A659E3A15CA84AF00BA3537 /* FingerSnapTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A659E1615CA84AF00BA3537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ENVIZIO Inc.";
+			};
+			buildConfigurationList = 3A659E1915CA84AF00BA3537 /* Build configuration list for PBXProject "FingerSnapTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A659E1415CA84AF00BA3537;
+			productRefGroup = 3A659E2015CA84AF00BA3537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A659E1E15CA84AF00BA3537 /* FingerSnapTest */,
+				3A659E3915CA84AF00BA3537 /* FingerSnapTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A659E1D15CA84AF00BA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E2E15CA84AF00BA3537 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A659E3715CA84AF00BA3537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E4615CA84AF00BA3537 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A659E3815CA84AF00BA3537 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A659E1B15CA84AF00BA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E3015CA84AF00BA3537 /* main.m in Sources */,
+				3A659E3415CA84AF00BA3537 /* AppDelegate.m in Sources */,
+				3A659E5415CA84CF00BA3537 /* FingerSnap.m in Sources */,
+				3A659E7015CAAFB700BA3537 /* AudioCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A659E3515CA84AF00BA3537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A659E4915CA84AF00BA3537 /* FingerSnapTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A659E4015CA84AF00BA3537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A659E1E15CA84AF00BA3537 /* FingerSnapTest */;
+			targetProxy = 3A659E3F15CA84AF00BA3537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A659E2C15CA84AF00BA3537 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A659E2D15CA84AF00BA3537 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A659E4415CA84AF00BA3537 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A659E4515CA84AF00BA3537 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A659E4A15CA84AF00BA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A659E4B15CA84AF00BA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A659E4D15CA84AF00BA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerSnapTest/FingerSnapTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerSnapTest/FingerSnapTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A659E4E15CA84AF00BA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerSnapTest/FingerSnapTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerSnapTest/FingerSnapTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A659E5015CA84AF00BA3537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FingerSnapTest.app/FingerSnapTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerSnapTest/FingerSnapTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerSnapTestTests/FingerSnapTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3A659E5115CA84AF00BA3537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FingerSnapTest.app/FingerSnapTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FingerSnapTest/FingerSnapTest-Prefix.pch";
+				INFOPLIST_FILE = "FingerSnapTestTests/FingerSnapTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A659E1915CA84AF00BA3537 /* Build configuration list for PBXProject "FingerSnapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A659E4A15CA84AF00BA3537 /* Debug */,
+				3A659E4B15CA84AF00BA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A659E4C15CA84AF00BA3537 /* Build configuration list for PBXNativeTarget "FingerSnapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A659E4D15CA84AF00BA3537 /* Debug */,
+				3A659E4E15CA84AF00BA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A659E4F15CA84AF00BA3537 /* Build configuration list for PBXNativeTarget "FingerSnapTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A659E5015CA84AF00BA3537 /* Debug */,
+				3A659E5115CA84AF00BA3537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A659E1615CA84AF00BA3537 /* Project object */;
+}
