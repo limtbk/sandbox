@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A75095C150F60E3000EB232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75095B150F60E3000EB232 /* UIKit.framework */; };
+		3A75095E150F60E3000EB232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75095D150F60E3000EB232 /* Foundation.framework */; };
+		3A750960150F60E3000EB232 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75095F150F60E3000EB232 /* CoreGraphics.framework */; };
+		3A750966150F60E3000EB232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A750964150F60E3000EB232 /* InfoPlist.strings */; };
+		3A750968150F60E3000EB232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A750967150F60E3000EB232 /* main.m */; };
+		3A75096C150F60E3000EB232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A75096B150F60E3000EB232 /* AppDelegate.m */; };
+		3A750975150F612B000EB232 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A750973150F612B000EB232 /* RootViewController.m */; };
+		3A750976150F612B000EB232 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A750974150F612B000EB232 /* RootViewController.xib */; };
+		3A750978150F72CF000EB232 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A750977150F72CF000EB232 /* AVFoundation.framework */; };
+		3A75097A150F72E1000EB232 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A750979150F72E1000EB232 /* CoreVideo.framework */; };
+		3A75097C150F72E5000EB232 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75097B150F72E5000EB232 /* CoreMedia.framework */; };
+		3A75097E150F73F8000EB232 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A75097D150F73F8000EB232 /* QuartzCore.framework */; };
+		3A75098E15132F81000EB232 /* UPCScanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A75098D15132F81000EB232 /* UPCScanner.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A640D21151B354300D7B9F8 /* UPCScannerInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCScannerInt.h; sourceTree = "<group>"; };
+		3A750957150F60E3000EB232 /* TestScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A75095B150F60E3000EB232 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A75095D150F60E3000EB232 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A75095F150F60E3000EB232 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A750963150F60E3000EB232 /* TestScanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestScanner-Info.plist"; sourceTree = "<group>"; };
+		3A750965150F60E3000EB232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A750967150F60E3000EB232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A750969150F60E3000EB232 /* TestScanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestScanner-Prefix.pch"; sourceTree = "<group>"; };
+		3A75096A150F60E3000EB232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A75096B150F60E3000EB232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A750972150F612B000EB232 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3A750973150F612B000EB232 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3A750974150F612B000EB232 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3A750977150F72CF000EB232 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3A750979150F72E1000EB232 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3A75097B150F72E5000EB232 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3A75097D150F73F8000EB232 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A75098D15132F81000EB232 /* UPCScanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UPCScanner.c; sourceTree = "<group>"; };
+		3A75099015132FF1000EB232 /* UPCScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPCScanner.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A750954150F60E3000EB232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A75097E150F73F8000EB232 /* QuartzCore.framework in Frameworks */,
+				3A750960150F60E3000EB232 /* CoreGraphics.framework in Frameworks */,
+				3A75097A150F72E1000EB232 /* CoreVideo.framework in Frameworks */,
+				3A75097C150F72E5000EB232 /* CoreMedia.framework in Frameworks */,
+				3A750978150F72CF000EB232 /* AVFoundation.framework in Frameworks */,
+				3A75095C150F60E3000EB232 /* UIKit.framework in Frameworks */,
+				3A75095E150F60E3000EB232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A75094C150F60E3000EB232 = {
+			isa = PBXGroup;
+			children = (
+				3A750961150F60E3000EB232 /* TestScanner */,
+				3A75095A150F60E3000EB232 /* Frameworks */,
+				3A750958150F60E3000EB232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A750958150F60E3000EB232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A750957150F60E3000EB232 /* TestScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A75095A150F60E3000EB232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A75097D150F73F8000EB232 /* QuartzCore.framework */,
+				3A75097B150F72E5000EB232 /* CoreMedia.framework */,
+				3A750979150F72E1000EB232 /* CoreVideo.framework */,
+				3A750977150F72CF000EB232 /* AVFoundation.framework */,
+				3A75095B150F60E3000EB232 /* UIKit.framework */,
+				3A75095D150F60E3000EB232 /* Foundation.framework */,
+				3A75095F150F60E3000EB232 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A750961150F60E3000EB232 /* TestScanner */ = {
+			isa = PBXGroup;
+			children = (
+				3A640D21151B354300D7B9F8 /* UPCScannerInt.h */,
+				3A75099015132FF1000EB232 /* UPCScanner.h */,
+				3A75098D15132F81000EB232 /* UPCScanner.c */,
+				3A75096A150F60E3000EB232 /* AppDelegate.h */,
+				3A75096B150F60E3000EB232 /* AppDelegate.m */,
+				3A750962150F60E3000EB232 /* Supporting Files */,
+				3A750972150F612B000EB232 /* RootViewController.h */,
+				3A750973150F612B000EB232 /* RootViewController.m */,
+				3A750974150F612B000EB232 /* RootViewController.xib */,
+			);
+			path = TestScanner;
+			sourceTree = "<group>";
+		};
+		3A750962150F60E3000EB232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A750963150F60E3000EB232 /* TestScanner-Info.plist */,
+				3A750964150F60E3000EB232 /* InfoPlist.strings */,
+				3A750967150F60E3000EB232 /* main.m */,
+				3A750969150F60E3000EB232 /* TestScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A750956150F60E3000EB232 /* TestScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A75096F150F60E3000EB232 /* Build configuration list for PBXNativeTarget "TestScanner" */;
+			buildPhases = (
+				3A750953150F60E3000EB232 /* Sources */,
+				3A750954150F60E3000EB232 /* Frameworks */,
+				3A750955150F60E3000EB232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestScanner;
+			productName = TestScanner;
+			productReference = 3A750957150F60E3000EB232 /* TestScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A75094E150F60E3000EB232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ENVIZIO Inc.";
+			};
+			buildConfigurationList = 3A750951150F60E3000EB232 /* Build configuration list for PBXProject "TestScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A75094C150F60E3000EB232;
+			productRefGroup = 3A750958150F60E3000EB232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A750956150F60E3000EB232 /* TestScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A750955150F60E3000EB232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A750966150F60E3000EB232 /* InfoPlist.strings in Resources */,
+				3A750976150F612B000EB232 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A750953150F60E3000EB232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A750968150F60E3000EB232 /* main.m in Sources */,
+				3A75096C150F60E3000EB232 /* AppDelegate.m in Sources */,
+				3A750975150F612B000EB232 /* RootViewController.m in Sources */,
+				3A75098E15132F81000EB232 /* UPCScanner.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A750964150F60E3000EB232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A750965150F60E3000EB232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A75096D150F60E3000EB232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = mh_execute;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A75096E150F60E3000EB232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACH_O_TYPE = mh_execute;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A750970150F60E3000EB232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestScanner/TestScanner-Prefix.pch";
+				INFOPLIST_FILE = "TestScanner/TestScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A750971150F60E3000EB232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestScanner/TestScanner-Prefix.pch";
+				INFOPLIST_FILE = "TestScanner/TestScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A750951150F60E3000EB232 /* Build configuration list for PBXProject "TestScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A75096D150F60E3000EB232 /* Debug */,
+				3A75096E150F60E3000EB232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A75096F150F60E3000EB232 /* Build configuration list for PBXNativeTarget "TestScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A750970150F60E3000EB232 /* Debug */,
+				3A750971150F60E3000EB232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A75094E150F60E3000EB232 /* Project object */;
+}
